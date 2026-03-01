@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Derek Lu - Data scientist building end-to-end ML systems and decision-science models.">
+  <title>Derek Lu | ML Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Header Nav ===== -->
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">Derek Lu</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="ml-systems.html">ML Systems</a>
+        <a href="optimization.html">Optimization</a>
+        <a href="about.html">About</a>
+        <span class="nav-external">
+          <a href="https://github.com/derekklue" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/derekblu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://derekklue.github.io/live_resume_page/" target="_blank" rel="noopener noreferrer">Resume</a>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container">
+        <h1>Derek Lu</h1>
+        <p>Data scientist building end-to-end ML systems and decision-science models.</p>
+      </div>
+    </section>
+
+    <!-- ===== Featured Projects ===== -->
+    <section class="page-section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="card-grid">
+          <!-- Fruit Classifier -->
+          <article class="card">
+            <span class="badge-featured">Featured</span>
+            <img
+              src="assets/images/fruit-classifier.png"
+              alt="Screenshot of the Fruit Classifier web demo showing image classification results"
+              class="card-image"
+            >
+            <div class="card-body">
+              <h3 class="card-title">Fruit Classifier</h3>
+              <p class="card-summary">Manual dataset collection, model training, ONNX export, and static web demo deployment.</p>
+              <p class="card-skills"><strong>Skills:</strong> Computer Vision, Dataset Engineering, Model Deployment, ONNX</p>
+              <div class="card-actions">
+                <a href="https://github.com/derekklue/fruit-classifier-cnn" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Repo</a>
+                <a href="https://derekklue.github.io/fruit-classifier-cnn/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Fleet Resource Allocation -->
+          <article class="card">
+            <span class="badge-featured">Featured</span>
+            <img
+              src="assets/images/fleet-optimization.png"
+              alt="Screenshot of the Fleet Resource Allocation optimization dashboard"
+              class="card-image"
+            >
+            <div class="card-body">
+              <h3 class="card-title">Fleet Resource Allocation and Optimization</h3>
+              <p class="card-summary">Optimization model for allocating vehicles, routes, and capacity under operational constraints and demand scenarios.</p>
+              <p class="card-skills"><strong>Skills:</strong> Optimization, Linear Programming, Operations Research, Scenario Analysis</p>
+              <div class="card-actions">
+                <a href="https://github.com/derekklue/fleet-route-optimization" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Categories ===== -->
+    <section class="page-section" style="padding-top: 0;">
+      <div class="container">
+        <h2 class="section-title">Explore by Category</h2>
+
+        <div class="category-grid">
+          <a href="ml-systems.html" class="category-card">
+            <h3>ML Systems and End-to-End Products</h3>
+            <p>Full-pipeline machine learning projects from data collection through deployment.</p>
+            <span class="link-text">View projects &rarr;</span>
+          </a>
+
+          <a href="optimization.html" class="category-card">
+            <h3>Optimization and Scenario Analytics</h3>
+            <p>Decision-science models, resource allocation, and scenario-based planning.</p>
+            <span class="link-text">View projects &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Derek Lu</p>
+      <div class="footer-links">
+        <a href="https://github.com/derekklue" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/derekblu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://derekklue.github.io/live_resume_page/" target="_blank" rel="noopener noreferrer">Resume</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ML Systems and End-to-End Products - Derek Lu's machine learning portfolio.">
+    <title>ML Systems | Derek Lu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== Header Nav ===== -->
+    <header class="site-header">
+        <nav class="container nav-inner" aria-label="Main navigation">
+            <a href="index.html" class="nav-brand">Derek Lu</a>
+            <button class="nav-toggle" aria-label="Toggle navigation"
+                onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="ml-systems.html" aria-current="page">ML Systems</a>
+                <a href="optimization.html">Optimization</a>
+                <a href="about.html">About</a>
+                <span class="nav-external">
+                    <a href="https://github.com/derekklue" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/derekblu" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://derekklue.github.io/live_resume_page/" target="_blank"
+                        rel="noopener noreferrer">Resume</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <h1 class="section-title">ML Systems and End-to-End Products</h1>
+                <p class="section-subtitle">Full-pipeline machine learning projects from data collection through
+                    deployment.</p>
+
+                <div class="card-grid">
+                    <!-- Fruit Classifier -->
+                    <article class="card">
+                        <img src="assets/images/fruit-classifier.png"
+                            alt="Screenshot of the Fruit Classifier web demo showing image classification results"
+                            class="card-image">
+                        <div class="card-body">
+                            <h2 class="card-title">Fruit Classifier</h2>
+                            <p class="card-summary">Manual dataset collection, model training, ONNX export, and static
+                                web demo deployment.</p>
+                            <p class="card-skills"><strong>Skills:</strong> Computer Vision, Dataset Engineering, Model
+                                Deployment, ONNX</p>
+                            <div class="card-actions">
+                                <a href="https://github.com/derekklue/fruit-classifier-cnn" class="btn btn-primary"
+                                    target="_blank" rel="noopener noreferrer">Repo</a>
+                                <a href="https://derekklue.github.io/fruit-classifier-cnn/" class="btn btn-outline"
+                                    target="_blank" rel="noopener noreferrer">Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Multimodal Stock Analysis -->
+                    <article class="card">
+                        <img src="assets/images/stock-multimodal.png"
+                            alt="Screenshot of the Multimodal Stock Analysis pipeline showing combined NLP and price action features"
+                            class="card-image">
+                        <div class="card-body">
+                            <h2 class="card-title">Multimodal Stock Analysis and Prediction</h2>
+                            <p class="card-summary">Multimodal pipeline combining price action features with NLP
+                                sentiment for market signal modeling.</p>
+                            <p class="card-skills"><strong>Skills:</strong> NLP, Computer Vision, Feature Engineering,
+                                Pipelines, Backtesting</p>
+                            <div class="card-actions">
+                                <a href="https://github.com/derekklue/multimodal-stock-analysis-prediction"
+                                    class="btn btn-primary" target="_blank" rel="noopener noreferrer">Repo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Derek Lu</p>
+            <div class="footer-links">
+                <a href="https://github.com/derekklue" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/derekblu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://derekklue.github.io/live_resume_page/" target="_blank"
+                    rel="noopener noreferrer">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
